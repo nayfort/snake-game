@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game-container">
+  <div id="game-field"></div>
+  <div id="game-gui">
+    <h1>Snake Game</h1>
+    <p id="best-score">Best: 0</p>
+    <p id="current-score">Score: 0</p>
+    <div class="label-blocks">
+      <div class="label-block">
+        <input type="radio" name="mode" id="classic" checked />
+        <label for="classic">Classic</label><br>
+      </div>
+      <div class="label-block">
+        <input type="radio" name="mode" id="god-mode" />
+        <label for="god-mode">God Mode</label><br>
+      </div>
+      <div class="label-block">
+        <input type="radio" name="mode" id="walls" />
+        <label for="walls">Walls</label><br>
+      </div>
+      <div class="label-block">
+        <input type="radio" name="mode" id="portal" />
+        <label for="portal">Portal</label><br>
+      </div>
+      <div class="label-block">
+        <input type="radio" name="mode" id="speed" />
+        <label for="speed">Speed Mode</label><br>
+      </div>
+    </div>
+    <button id="play-button">Play</button>
+    <button id="exit-button">Exit</button>
+    <button id="menu-button" style="display: none;">Menu</button>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@8.x/dist/pixi.min.js"></script>
+<script type="module" src="main.js"></script>
+</body>
+</html>

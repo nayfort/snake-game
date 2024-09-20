@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-container {
+  display: flex;
+  background-color: #003d3d;
+  border: 2px solid #006b6b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#game-field {
+  width: 400px;
+  height: 400px;
+  background-color: #3d3d3d;
+  border: 10px solid #b87333;
+  margin-right: 20px;
+}
+
+#game-gui {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #026262;
+  color: white;
+  width: 200px;
+  height: 600px;
+}
+
+#game-gui h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+#game-gui p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.label-block{
+  display: flex;
+  flex-direction: row;
+}
+
+.label-blocks{
+  display: flex;
+  flex-direction: column;
+}
+
+button, label {
+  font-size: 18px;
+  margin: 10px 0;
+  background-color: #005555;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #007777;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+label {
+  font-size: 16px;
+}
